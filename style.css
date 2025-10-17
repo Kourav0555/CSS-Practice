@@ -18,32 +18,30 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Title (Poem Name) */
 h1 {
   text-align: center;
-  color: #b22222; /* firebrick red */
+  color: #b22222; 
   text-shadow: 1px 1px 2px #f0c7c7;
   font-family: "Georgia", serif;
   letter-spacing: 2px;
 }
 
-/* Poet's Name */
+
 h3 {
   text-align: center;
-  color: #2f4f4f; /* dark slate gray */
+  color: #2f4f4f; 
   font-style: italic;
   margin-bottom: 25px;
 }
 
-/* Poem Text */
 p {
-  color: #5a3e2b; /* deep brown text */
+  color: #5a3e2b; 
   text-align: center;
   line-height: 1.8;
   font-size: 18px;
 }
 
-/* Add Hover Effect on the Container */
+
 .poem-container:hover {
   background-color: #fff4cc;
   border-color: #d2a679;
