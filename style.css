@@ -28,10 +28,12 @@ h1 {
 
 
 h3 {
+  
   text-align: center;
   color: #2f4f4f; 
   font-style: italic;
   margin-bottom: 25px;
+
 }
 
 p {
@@ -40,7 +42,6 @@ p {
   line-height: 1.8;
   font-size: 18px;
 }
-
 
 .poem-container:hover {
   background-color: #fff4cc;
