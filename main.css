@@ -1,0 +1,46 @@
+* {
+  text-align: center;
+}
+
+#maintopic {
+  color: rgb(88, 88, 134);
+}
+
+h1 {
+  color: rgb(9, 128, 48);
+}
+
+h1, h2, h3 {
+  font-family: "Georgia", serif;
+}
+
+/* .content {
+  color: white;
+  background-color: cornflowerblue;
+} */
+
+div button {
+  color: azure;
+  background-color: purple;
+}
+
+button:hover {
+  background-color: yellow;
+  color: blue;
+}
+
+p:nth-of-type(2n+1) {
+  color: rgb(25, 3, 119);
+}
+
+h1::first-letter {
+  color: rgb(189, 10, 10);
+}
+
+#yes:checked + label {
+  color: darkgreen;
+}
+body {
+  background-color: #f7b8f1;
+  color: #000000;
+}
