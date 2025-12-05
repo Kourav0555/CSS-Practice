@@ -8,6 +8,9 @@
 
 h1 {
   color: rgb(9, 128, 48);
+  border-width: 50px;
+  border-radius: 30px;
+  border-color: red;
 }
 
 h1, h2, h3 {
@@ -22,8 +25,15 @@ h1, h2, h3 {
 div button {
   color: azure;
   background-color: purple;
+  border-radius: 40px;
 }
 
+div {
+  border: 20px,solid,blue;
+  border-radius: 30px;
+  border-bottom-right-radius: 20px;
+
+}
 button:hover {
   background-color: yellow;
   color: blue;
@@ -44,3 +54,4 @@ body {
   background-color: #f7b8f1;
   color: #000000;
 }
+
