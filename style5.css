@@ -3,23 +3,40 @@ h1 {
     display: block;
     margin: 0 auto 20px auto;
     font-family: Arial, sans-serif;
-    /*background-color: rgb(89, 90, 163);*/
-    color: rgb(124, 86, 124);
+    background-color: rgba(228, 152, 190, 0.904);
+    color: rgb(73, 29, 73);
     border-radius: 20px;
     border: 3px solid rgb(99, 5, 44);
+    width :40%;
+
+}
+
+button {
+    display: block;
+
+    padding-left: 1em; 
+    padding-right: 1em;
+
+    font-size: 40px;
+    border: 2px solid rgb(68, 33, 196);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(223, 217, 217, 0.829);
+
 
 }
 
 
 div {
-    background-color: green;
+    background-color: rgb(56, 117, 56);
     height: 200px;
     width: 200px;
     display: block;
     border: 5px solid black;
-    margin: 5px;
+    margin: 20px;
     display: inline;
 }
+
 
 #first {
     display :block;
