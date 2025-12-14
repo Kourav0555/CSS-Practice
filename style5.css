@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    display: block;
+    margin: 0 auto 20px auto;
+    font-family: Arial, sans-serif;
+    /*background-color: rgb(89, 90, 163);*/
+    color: rgb(124, 86, 124);
+    border-radius: 20px;
+    border: 3px solid rgb(99, 5, 44);
+
+}
+
+
+div {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    display: block;
+    border: 5px solid black;
+    margin: 5px;
+    display: inline;
+}
+
+#first {
+    display :block;
+    background-color: rgb(112, 184, 112);
+    border: 5px solid black;
+    font-size: 30px;
+}
+
+#second { 
+    display: block;
+    background-color: rgb(76, 131, 76);
+    border: 5px solid black;
+}
+#third {
+    display:block;
+    background-color: rgb(37, 70, 39);
+    border: 5px solid black;
+}
