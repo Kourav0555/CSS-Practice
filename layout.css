@@ -19,6 +19,20 @@ body {
   margin-bottom: 30px;
 }
 
+
+.header {
+  height: 50px;
+  width: 200px;
+  color: #300303;
+  text-shadow: 1px 1px 2px #aaa;
+  box-shadow: 2px 2px 10px #ac0f0f;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
 /* Card box */
 .profile-card {
   width: 260px;
