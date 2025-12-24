@@ -1,0 +1,85 @@
+/* Global box model */
+* {
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 30px;
+  background-color: #f2f2f2;
+}
+
+/* Page Title */
+.title {
+  text-align: center;
+  border-bottom: 3px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+/* Card box */
+.profile-card {
+  width: 260px;
+  border: 3px solid #7a1f1f;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 0 auto 30px;
+  background-color: #da6c6c;
+  text-align: center;
+}
+
+/* Subtitle text */
+.role {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Button */
+.btn {
+  border: 3px solid #004080;
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Section box */
+.section {
+  border: 2px solid #444;
+  padding: 20px;
+  margin: 40px auto;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* Section heading */
+.section h3 {
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.skills li {
+  display: inline-block;
+  border: 2px solid #0e5317;
+  padding: 10px 15px;
+  margin: 8px;
+  border-radius: 20px;
+  background-color: #a9f3ad;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.skills li:hover {
+  transform: scale(1.1);
+  background-color: #6ed36e;
+  text-shadow: 1px 1px 2px #333;
+}
