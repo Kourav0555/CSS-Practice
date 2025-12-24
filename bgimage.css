@@ -1,0 +1,13 @@
+div {
+    width: 600px;
+    margin : 20px auto;
+    height: 600px;
+    background-color: rgb(59, 147, 177);
+    background-image: url(bgimage.jpg.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: rgb(236, 227, 227) 2px 2px 4px;
+    font-size: 24px;
+}
