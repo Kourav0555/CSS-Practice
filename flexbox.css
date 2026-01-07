@@ -8,7 +8,7 @@ section {
   margin-bottom: 40px;
 }
 
-/* FLEX ITEM */
+
 .box {
   padding: 20px;
   margin: 10px;
@@ -18,18 +18,24 @@ section {
   text-align: center;
 }
 
-/* 1. Flex Direction */
+
+
 .flex-direction-container {
   display: flex;
   flex-direction: row;
   border: 2px dashed black;
+  
 }
+
+
 
 .justify-content-container {
   display: flex;
   justify-content: center;
   border: 2px dashed black;
 }
+
+
 
 .align-items-container {
   display: flex;
@@ -94,11 +100,14 @@ section {
     background-color: rgb(11, 85, 153);
 
   }
+
+
   h1:hover {
     background-color: rgb(21, 56, 131);
     transform: scale(1.06);
     transition: transform 0.5s;
   }
+
 
 h2 {
   text-align: center;
@@ -108,15 +117,40 @@ h2 {
   display : inline-block;
   padding: 5px 15px;
 
+
 }
-
-
-
-
   .box:hover {
   background: rgb(44, 74, 129) !important;
   transform: scale(1.06);
   transition: transform 0.5s;
 }
 
+#navbar {
+  height:50px;
+  width:900px;
+  background-color:pink;
+  border:2px solid lightseagreen;
+  border-radius:10px;
+  display:flex;
+  justify-content:flex-start;
+  align-content:center;
+}
+
+
+  .option  {
+  height:50px;
+  width:80px;
+  border-radius:10px;
+  margin-left:5px;
+  font-size:20px;
+  line-height:50px;
+  text-align:center;
+}
+
+.option:hover {
+  background-color:lightblue;
+  cursor:pointer;
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
 
