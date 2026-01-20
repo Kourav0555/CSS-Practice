@@ -1,38 +1,28 @@
-.grid-container {
+.container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 16px;
+     width : 600px;
+     height : 400px;
     padding: 16px;
+    background-color: rgb(230, 176, 202);
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
 }
 
-.grid-item {
-    background-color: #f0f0f0;
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    background-color: #f3f6fa;
     border: 1px solid #ccc;
-    padding: 20px;
     text-align: center;
     font-size: 18px;
+
+}
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
 
-.grid-item:hover {
-    background-color: #535353;
+.item1:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover, .item6:hover {
+    background-color: #648bb4;
     cursor: pointer;
+    color : rgb(17, 17, 17);
 }
-
-.grid-header {
-    grid-column: span 2;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-size: 24px;
-}
-.grid-footer {
-    grid-column: span 2;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-}
-
-
