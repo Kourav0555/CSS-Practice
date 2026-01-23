@@ -26,3 +26,9 @@
     cursor: pointer;
     color : rgb(17, 17, 17);
 }
+
+@keyframes .container-bg-change {
+   from {background-color: rgb(230, 176, 202);}
+   to {background-color: rgb(150, 136, 136);}
+
+}
